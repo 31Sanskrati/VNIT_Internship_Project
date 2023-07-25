@@ -1,0 +1,216 @@
+{% extends "base.html" %} {% block content %}
+<div class="container mt-4">
+  <h1 class="mb-4">Create User Profile</h1>
+  <form method="POST" action="success">
+    {% csrf_token %}
+    <fieldset>
+      <legend>Personal Information</legend>
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          class="form-control"
+          id="username"
+          name="username"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          class="form-control"
+          id="password"
+          name="password"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="full_name">Full Name:</label>
+        <input
+          type="text"
+          class="form-control"
+          id="full_name"
+          name="full_name"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="phone_number">Phone Number:</label>
+        <input
+          type="text"
+          class="form-control"
+          id="phone_number"
+          name="phone_number"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          name="email"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="date_of_birth">Date of Birth:</label>
+        <input
+          type="date"
+          class="form-control"
+          id="date_of_birth"
+          name="date_of_birth"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="aadhar_card_number">Aadhar Card Number:</label>
+        <input
+          type="text"
+          class="form-control"
+          id="aadhar_card_number"
+          name="aadhar_card_number"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="pan_card">PAN Card:</label>
+        <input
+          type="text"
+          class="form-control"
+          id="pan_card"
+          name="pan_card"
+          required
+        />
+      </div>
+    </fieldset>
+    <br>
+    <br>
+    <br>
+    <fieldset>
+      <legend>Financial Information</legend>
+      <div class="form-group">
+        <label for="annual_income">Annual Income:</label>
+        <input
+          type="text"
+          class="form-control"
+          id="annual_income"
+          name="annual_income"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="net_worth">Net Worth:</label>
+        <input
+          type="text"
+          class="form-control"
+          id="net_worth"
+          name="net_worth"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="liquid_net_worth">Liquid Net Worth:</label>
+        <input
+          type="text"
+          class="form-control"
+          id="liquid_net_worth"
+          name="liquid_net_worth"
+          required
+        />
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>DMAT Information</legend>
+      <div class="form-group">
+        <label for="dmat_account_number">DMAT Account Number:</label>
+        <input
+          type="text"
+          class="form-control"
+          id="dmat_account_number"
+          name="dmat_account_number"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="brokerage_firm">Brokerage Firm:</label>
+        <input
+          type="text"
+          class="form-control"
+          id="brokerage_firm"
+          name="brokerage_firm"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="account_credentials">Account Credentials:</label>
+        <input
+          type="text"
+          class="form-control"
+          id="account_credentials"
+          name="account_credentials"
+          required
+        />
+      </div>
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+      <legend>Consent</legend>
+      <div class="form-group form-check">
+        <input
+          type="checkbox"
+          class="form-check-input"
+          id="consent_personal_info"
+          name="consent_personal_info"
+          required
+        />
+        <label class="form-check-label" for="consent_personal_info"
+          >I hereby confirm that the personal information provided is accurate
+          and I consent to the terms and conditions.</label
+        >
+      </div>
+      <div class="form-group form-check">
+        <input
+          type="checkbox"
+          class="form-check-input"
+          id="consent_financial_info"
+          name="consent_financial_info"
+          required
+        />
+        <label class="form-check-label" for="consent_financial_info"
+          >I hereby consent to providing my financial information, including
+          annual income, net worth, and liquid net worth.</label
+        >
+      </div>
+      <div class="form-group form-check">
+        <input
+          type="checkbox"
+          class="form-check-input"
+          id="consent_dmat_account"
+          name="consent_dmat_account"
+        />
+        <label class="form-check-label" for="consent_dmat_account"
+          >I hereby consent to use my DMAT account or other required consent for
+          managing my portfolio and investments.</label
+        >
+      </div>
+      <div class="form-group form-check">
+        <input
+          type="checkbox"
+          class="form-check-input"
+          id="consent_terms_conditions"
+          name="consent_terms_conditions"
+          required
+        />
+        <label class="form-check-label" for="consent_terms_conditions"
+          >I have read and agree to the terms and conditions.</label
+        >
+      </div>
+    </fieldset>
+    <button type="submit" class="btn btn-primary">Create Profile</button>
+  </form>
+</div>
+{% endblock %}
