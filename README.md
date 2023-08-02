@@ -30,4 +30,17 @@ Excited to try out my user management system? Let's get you up and running in no
  
 **Warning:** My system is so user-friendly that you might never want to leave! 😉
 
+## Website Screenshots Showcase 📸
+![Home Page](https://github.com/31Sanskrati/User-Management-System-for-Stock-Portfolio-Management-Website/blob/main/screenshots/1.png)
+![Log In Page](https://github.com/31Sanskrati/User-Management-System-for-Stock-Portfolio-Management-Website/blob/main/screenshots/2.png)
+![Create an Account](https://github.com/31Sanskrati/User-Management-System-for-Stock-Portfolio-Management-Website/blob/main/screenshots/3.png)
+![Create an Account 2](https://github.com/31Sanskrati/User-Management-System-for-Stock-Portfolio-Management-Website/blob/main/screenshots/4.png)
+![Change language](https://github.com/31Sanskrati/User-Management-System-for-Stock-Portfolio-Management-Website/blob/main/screenshots/5.png)
+![Change Password](https://github.com/31Sanskrati/User-Management-System-for-Stock-Portfolio-Management-Website/blob/main/screenshots/6.png)
+![Edit Profile](https://github.com/31Sanskrati/User-Management-System-for-Stock-Portfolio-Management-Website/blob/main/screenshots/7.png)
+![View Profile](https://github.com/31Sanskrati/User-Management-System-for-Stock-Portfolio-Management-Website/blob/main/screenshots/8.png)
+![Delete Account](https://github.com/31Sanskrati/User-Management-System-for-Stock-Portfolio-Management-Website/blob/main/screenshots/9.png)
+![Confirmation Page](https://github.com/31Sanskrati/User-Management-System-for-Stock-Portfolio-Management-Website/blob/main/screenshots/10.png)
+
+
 I hope you enjoy exploring my user management system. Feel free to dive into the code, contribute, or suggest improvements. Together, we'll make this the best stock portfolio management website ever! Happy managing! 🚀📈
