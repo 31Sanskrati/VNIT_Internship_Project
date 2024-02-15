@@ -1,5 +1,5 @@
-# User-Management-System-for-Stock-Portfolio-Management-Website
-Welcome to my user management system for the stock portfolio management product website! 🚀📈
+# User Management System for Stock Portfolio Management
+Welcome to my user management system for the stock portfolio management software product! 🚀📈
 
 ## Overview
 The user management system I've built is the backbone of the stock portfolio management website, ensuring a seamless and secure user experience. It comes packed with exciting features and functionalities, making sure our users feel right at home in managing their stock portfolios.
