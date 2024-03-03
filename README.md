@@ -1,3 +1,19 @@
+# VNIT Internship project
+During my summer internship at Visvesvaraya National Institute of Technology Nagpur, I focused on software engineering, with a specialization in Agile methodology. My assigned task was to develop a stock portfolio management software product using Agile principles.
+The primary objective of this project was to create a robust software solution for managing stock portfolios efficiently, utilizing Agile methodologies to ensure flexibility and adaptability to changing market demands.
+
+Work Highlights:
+
+Background Study: Conducted an in-depth background study to gain a comprehensive understanding of the requirements and challenges involved in stock portfolio management.
+Solution Design: Developed a solution architecture that addressed the key functionalities and requirements identified during the background study.
+Development Plan: Outlined a detailed development plan, delineating the iterative development process to be followed in adherence to Agile principles.
+Architectural Model: Designed an architectural model that provided a high-level overview of the system's structure and components, ensuring scalability and maintainability.
+Feature Studies: Conducted feature studies to prioritize and sequence the implementation of various features based on their importance and impact on the overall system.
+Scrum Backlog Planning: Created a scrum backlog plan to manage and prioritize the product backlog, facilitating effective sprint planning and execution.
+Wireframe Development: Designed wireframes to visualize the user interface and interactions, ensuring alignment with user requirements and expectations.
+Coding Implementation: Implemented a small coding segment based on the wireframes, employing best practices and coding standards to ensure code quality and maintainability.
+
+
 # User Management System for Stock Portfolio Management
 Welcome to my user management system for the stock portfolio management software product! 🚀📈
 
